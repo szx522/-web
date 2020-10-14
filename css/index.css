@@ -3,6 +3,8 @@
     width: 100%;
     height: 77px;
     background-color: rgba(0,0,0,.45);
+    position: fixed;
+    z-index: 9;
 }
 .logo{
     float: left;
@@ -32,6 +34,386 @@
     margin-top: -16px;
     opacity: 0;
 }
+.nav .item:hover{
+    color: #dd1717;
+}
 .nav .item:hover .line{
     opacity: 1;
+}
+/* banner区域样式 */
+.banner{
+    width: 100%;
+    height: 803px;
+    background:url(../images/bananer_01.png) no-repeat center;
+    position: relative;
+}
+.banner .arr-l,.banner .arr-r{ 
+    width: 21px;
+    height: 22px;
+    background: url(../images/arrleft.png) no-repeat center;
+    position: absolute;
+    bottom: 352px;
+    cursor: pointer;
+}
+.banner .arr-l{
+    left: 100px;
+}
+.banner .arr-r{
+    background: url(../images/arrright.png) no-repeat center;
+    right: 100px;
+}
+.banner .dot{
+    position: absolute;
+    left: 50%;
+    bottom:29px;
+}
+.banner .dot a{
+    float: left;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 24px;
+    border: 2px solid#fff;
+}
+.banner .dot a:hover{
+    border-color: #dd1717;
+}
+/* 作品展示区域样式 */
+.disp{
+    background-color: #000;
+    padding-top: 114px;
+    overflow: hidden;
+}
+.disp .title{
+    margin: 0 auto;
+    width: 518px;
+    text-align: center;
+}
+.disp .ename{
+    width:518px;
+    background: url(../images/line.png) repeat-x center;
+}
+.disp .ename>span{
+    display: inline-block;
+    padding: 0 15px;
+    color: #dd1717;
+    font: 24px/24px "微软雅黑";
+    background-color: #000;
+}
+.disp .title .cname{
+    font: 16px/16px "微软雅黑";
+    color:#8c8c8c;
+    display: block;
+    margin-top: 15px;
+}
+.disp-list{
+    padding-top: 34px;
+    padding-bottom: 46px;
+}
+.disp-list img{
+   width: 100%;
+   height: 100%; 
+}
+.disp-list .disp-item{
+    width: 22%;
+    height: 295px;
+    background-color: #cff;
+    float: left;
+    margin-right: 4%;
+    margin-bottom: 4%;
+}
+.disp-list .mr0{
+    margin-right: 0px;
+}
+.disp-list .mb0{
+    margin-bottom: 0px;
+}
+.disp .more{
+    width: 100%;
+    height: 100px;
+    background-color: #dd1717;
+    color:#fff;
+    font-size:18px;
+    line-height: 100px;
+    text-align: center;
+    font-family: "微软雅黑";
+    cursor: pointer;
+}
+/* 优惠福利样式 */
+.welfare{
+    background-color: #000;
+}
+.welfare img{
+    width: 100%;
+    height: 100%; 
+}
+.welfare .title{
+    padding-top: 147px;
+    padding-bottom: 81px;
+    margin: 0 auto;
+    width: 518px;
+    text-align: center;
+}
+.welfare .ename{
+    width:518px;
+    background: url(../images/line.png) repeat-x center;
+}
+.welfare .ename>span{
+    display: inline-block;
+    padding: 0 80px;
+    color: #dd1717;
+    font: 24px/24px "微软雅黑";
+    background-color: #000;
+}
+.welfare .cname{
+    font: 16px/16px "微软雅黑";
+    color:#8c8c8c;
+    display: block;
+    margin-top: 15px;
+}
+.welfare-desc{
+    margin-top: 40px;
+    position: relative;
+}
+.welfare-list{
+    width: 50%;
+    height: 808px;
+    border-right: 1px solid rgba(255,255,255,.1);
+    float: left;
+    overflow: hidden;
+}
+.welfare .welfare-item{
+    border: 1px solid #000;
+    margin: 44px 0;
+    width: 60%;
+    height: 40%;
+    background-color: #fcf;
+    margin-left: 30%;
+    position: relative;
+}
+
+.welfare .info{
+    width: 100%;
+    height: 50px;
+    background-color: #212121;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    line-height: 50px; 
+}
+.welfare-item:hover{
+    border: 1px solid#dd1717;
+    background-color:#dd1717;
+}
+.welfare-item:hover .info{
+    background-color:#dd1717;
+}
+.welfare .info>a{
+    color: #fff;
+    font-size: 18px;
+    font-family: "微软雅黑";
+}
+.welfare .info>span{
+    position: absolute;
+    left: 20px;
+    color: rgba(255,255,255,0.4);
+}
+.welfare-desc .welfare-r{
+    padding-top: 222px;
+    margin-left: -1px;
+    border: none;
+}
+.welfare-desc .welfare-r .welfare-item{
+    margin-left: 10%;
+}
+.welfare .dot{
+    position: absolute;  
+    left: 50%;
+    margin-left: -6px;
+    padding-top: 183px;
+}
+.welfare .dot a{
+    display: block;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin-bottom:169px;
+}
+.welfare .dot a:hover{
+    border-color: #dd1717;
+}
+.box{
+    width: 100%;
+    height: 1000px;
+    background-color: #fcf;
+}
+/* 关于我们模块样式 */
+.aboutus{
+    background: url(../images/aboutus.png) no-repeat center;
+    background-size: cover;
+    background-color: #fff;
+}
+.aboutus .title{
+    padding-top: 77px;
+    padding-bottom: 32px;
+    margin: 0 auto;
+    width: 518px;
+    text-align: center;
+}
+.aboutus .ename{
+    width:518px;
+    background: url(../images/line.png) repeat-x center;
+}
+.aboutus .ename>span{
+    display: inline-block;
+    padding: 0 80px;
+    color: #dd1717;
+    font: 24px/24px "微软雅黑";
+    background-color: #000;
+}
+.aboutus .cname{
+    font: 16px/16px "微软雅黑";
+    color:#8c8c8c;
+    display: block;
+    margin-top: 15px;
+}
+.aboutus .iris{
+    display: block;
+    height: 52px;
+    margin: 0 auto;
+    margin-top:46px;
+}
+.aboutus .desc-list{
+    height: 100%;
+    width: fit-content;
+    width: -moz-fit-content;
+    width: -webkit-fit-content;
+    margin: 0 auto;
+}
+.aboutus .desc-item{
+    text-align: center;
+    margin-right: 130px;
+    margin-bottom: 160px;
+    float: left;
+}
+.aboutus .desc-item>img{
+    margin-bottom: 28px;
+
+}
+.aboutus .desc-item>p{
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    width: 200px;
+}
+.aboutus .mr0{
+    margin-right: 0;
+}
+/* 约拍流程样式    */
+.flow{
+    padding-top: 77px;
+    padding-bottom: 19px;
+    background-color: #000;
+}
+.flow .title{
+    margin: 0 auto;
+    width: 518px;
+    text-align: center;
+}
+.flow .ename{
+    width:518px;
+    background: url(../images/line.png) repeat-x center;
+}
+.flow .ename>span{
+    display: inline-block;
+    padding: 0 80px;
+    color: #dd1717;
+    font: 24px/24px "微软雅黑";
+    background-color: #000;
+}
+.flow .cname{
+    font: 16px/16px "微软雅黑";
+    color:#8c8c8c;
+    display: block;
+    margin-top: 15px;
+}
+.step-list{
+    padding-top:92px;
+    width: fit-content;
+    width: -moz-fit-content;
+    width: -webkit-fit-content;
+    margin: 0 auto;
+}
+.flow .step-item{
+    width: 171px;
+    height: 230px;
+    margin-right: 10px;
+    float: left;
+}
+.step-item .num{
+    height: 75px;
+    text-align: center;   
+    background: url(../images/gray.png) no-repeat center top;
+}
+.step-item .num a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.step-item .num p{
+    font-size: 24px;
+    line-height: 59px;
+    font-weight: bold;
+    font-family: "微软雅黑";
+    color: #dd1717;
+}
+.step-item .num span{
+    display: block;
+    width: 12px;
+    height: 12px;
+    margin: 0 auto;
+    margin-top: 4px;
+    background-color: #0D0D0D;
+    border-radius: 50%;
+}
+.step-item .tip{
+    margin-top: 10px;
+    width: 171px;
+    height: 145px;
+    text-align: center;
+    background: url(../images/gray-tip.png) no-repeat center;
+} 
+.step-item .tip h3{
+    font-size: 16px;
+    color: #fff;
+    font-weight: normal;
+    padding-top: 48px;
+    padding-bottom: 10px;
+    font-family: "微软雅黑";
+}
+.step-item .tip p{
+    font-size: 12px;
+    color:#8c8c8c;
+}
+.step-item:hover .num span{
+    background-color:#dd1717;
+}
+.step-item:hover .num{
+    background-image: url(../images/red.png);
+}
+.step-item:hover .num p{
+    line-height: 30px;
+    color: #fff;
+}
+.step-item:hover .tip p{
+    color: #fff;
+}
+.step-item:hover .tip{
+    background-image: url(../images/redTip.png);
+}
+/* 联系我们样式 */
+.contactUs{
+    height: 335px;
+    background-color: #000;
 }
