@@ -1,0 +1,37 @@
+/* 公共头部样式 */
+.head{
+    width: 100%;
+    height: 77px;
+    background-color: rgba(0,0,0,.45);
+}
+.logo{
+    float: left;
+    width: 120px;
+    height: 100%;
+    background: url(../images/logo.png) no-repeat center;
+    margin-left: 50px;
+}
+.nav{
+    float: right;
+}
+.nav .item{
+    float: left;
+    color: #fff;
+    margin-right: 36px;
+    line-height: 77px;
+    height: 100%;
+}
+.nav .lastm{
+    margin-right: 49px;
+}
+.nav .line{
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #dd1717;
+    margin-top: -16px;
+    opacity: 0;
+}
+.nav .item:hover .line{
+    opacity: 1;
+}
