@@ -1,0 +1,34 @@
+.banner{
+    background: #000 url(../images/discount-bg.png) no-repeat center top;
+    background-size: contain;
+    height: 1000px;
+    padding-top: 211px;
+}
+.banner .title{
+    width: 580px;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner .ename{
+    width: 100%;
+    background: url(../images/line.png) repeat-x center;
+}
+.banner .ename>span{
+    display: inline-block;
+    padding: 0 15px;
+    color: #dd1717;
+    font: 24px/24px "微软雅黑";
+    background-color: #000;
+}
+.banner .title .cname{
+    font: 16px/16px "微软雅黑";
+    color:#8c8c8c;
+    display: block;
+    margin-top: 15px;
+}
+.banner .title p{
+    font-size: 14px;
+    line-height: 14px;
+    color: #fff;
+    margin-top: 29px;
+}

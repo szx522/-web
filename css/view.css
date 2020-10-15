@@ -1,7 +1,12 @@
 .banner{
     height: 559px;
-    background-color: #000;
+    /* background: url(../images/view_banner.png) no-repeat center;
+    background-size: cover; */
 }
+/* .banner img{
+    width: 100%;
+    height: 100%;
+} */
 /* 产品展示模块样式 */
 .product{
     height: 100%;
@@ -55,6 +60,39 @@
     margin-right:2.2%;
     margin-bottom:2.2%;
     float: left;
+    position: relative;
+}
+.product .product-item:hover .mask{
+    display: block;
+}
+.product-item .mask{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.6);
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    display: none;
+}
+.product-item  .mask-content{
+    margin: 0 auto;
+    width: 80%;
+    height: 80%;
+    border: 1px solid#dd1717;
+    margin-top: 10%;
+    text-align: center;
+}
+.product-item  .mask-content h3{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size:14px;
+    line-height: 14px;
+    color: #dd1717;
+}
+.product-item  .mask-content p{
+    font-size: 12px;
+    line-height: 12px;
+    color: rgba(255,255,255,.4);
 }
 .product .product-list .mb0{
     margin-bottom:0;

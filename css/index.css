@@ -72,6 +72,11 @@
    width: 100%;
    height: 100%; 
 }
+.disp-list .disp-item a{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
 .disp-list .disp-item{
     width: 22%;
     height: 295px;
@@ -79,6 +84,39 @@
     float: left;
     margin-right: 4%;
     margin-bottom: 4%;
+    position: relative;
+}
+.disp-item:hover .mask{
+    display: block;
+}
+.disp-item .mask{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.6);
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    display: none;
+}
+.disp-item .mask-content{
+    margin: 0 auto;
+    width: 80%;
+    height: 80%;
+    border: 1px solid#dd1717;
+    margin-top: 10%;
+    text-align: center;
+}
+.disp-item .mask-content h3{
+    margin-top: 97px;
+    margin-bottom: 20px;
+    font-size:14px;
+    line-height: 14px;
+    color: #dd1717;
+}
+.disp-item .mask-content p{
+    font-size: 12px;
+    line-height: 12px;
+    color: rgba(255,255,255,.4);
 }
 .disp-list .mr0{
     margin-right: 0px;
