@@ -1,0 +1,61 @@
+.content{
+    height: 1000px;
+    background:#000 url(../images/about-bg.png) no-repeat center;
+}
+.content .title
+{
+    padding-top: 208px;
+}
+.content .ename>span{
+    padding: 0 50px;
+}
+.content .desc{
+    width: 781px;
+    font-size: 14px;
+    color: rgba(255,255,255,.6);
+    line-height: 30px;
+    margin: 0 auto;
+    margin-top: 75px;
+}
+.content .date{
+    width: 800px;
+    height: 91px;
+    /* background-color: #fcf; */
+    margin: 0 auto;
+    margin-top:79px;
+}
+.date .year{
+    width: 207px;
+    height: 91px;
+    border-right: 1px solid rgba(255,255,255,.6);
+}
+.date h3{
+    color: rgba(255,255,255,.6);
+    font-size: 60px;
+    line-height: 60px;
+    position: relative;
+}
+.date span{
+    font-size: 14px;
+    line-height: 14px;
+    color: rgba(255,255,255,.4);
+}
+.date h3 span{
+    width: 32px;
+    font-size: 14px;
+    font-size: 14px;
+    font-weight: normal;
+    position: absolute;
+}
+.content .year span{
+    margin-top: 28px;
+}
+.content .hour{
+    margin-left: 72px;
+    text-align: center;
+}
+.content .picture{
+    margin-left: 130px;
+    border-left: 1px solid  rgba(255,255,255,.6);
+    padding-left: 44px;
+}
