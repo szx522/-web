@@ -1,7 +1,6 @@
 .banner{
     background: #000 url(../images/discount-bg.png) no-repeat center top;
     background-size: contain;
-    height: 1000px;
     padding-top: 211px;
 }
 .banner .title{
@@ -31,4 +30,69 @@
     line-height: 14px;
     color: #fff;
     margin-top: 29px;
+}
+/* 产品套餐样式 */
+.packages-box{
+    width: fit-content;
+    width: -moz-fit-content;
+    width: -webkit-fit-content;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 114px;
+}
+.packages{
+    float: left;
+}
+.packages img{
+    display: block;
+    width: 516px;
+}
+.packages-item{
+    width: 516px;
+}
+.packages .mb{
+    margin-bottom: 47px;
+}
+.packages-box .mr{
+    margin-right: 46px;
+}
+.packages-item a{
+    display: block;
+    width: 516px;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    background-color: #212121;
+}
+.packages-item .price{
+    padding: 50px 143px;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(255,255,255,.05);
+}
+.packages-item .price h3{
+    font-size: 36px;
+    line-height: 36px;
+}
+.packages-item .price p{
+    font-size: 14px;
+    line-height: 14px;
+}
+.packages-item .edesc{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.packages-item .people span{
+    color: #dd1717;
+}
+.packages-item:hover a{
+    background-color: #dd1717;
+}
+.packages-item:hover .price{
+    background-color: rgba(221, 23, 0, .5);
+}
+.packages-item:hover .price span{
+    color: #fff;
 }
