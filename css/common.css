@@ -34,12 +34,14 @@
     margin-top: -16px;
     opacity: 0;
 }
+
 .nav .item:hover{
     color: #dd1717;
 }
 .nav .item:hover .line{
     opacity: 1;
 }
+/* 标题公共样式 */
 .title{
     margin: 0 auto;
     width: 518px;
@@ -47,14 +49,24 @@
 }
 .ename{
     width:518px;
-    background: url(../images/line.png) repeat-x center;
+    overflow: hidden;
 }
 .ename>span{
-    display: inline-block;
-    padding: 0 15px;
+    padding: 0 65px;
     color: #dd1717;
     font: 24px/24px "微软雅黑";
-    background-color: #000;
+    float: left;
+    width: fit-content;
+}
+.ename .line{
+    width:130px;
+    height:2px;
+    background-color: #dd1717;
+    float: left;
+    margin-top: 11px;
+}
+.ename .line-r{
+    float: right;
 }
 .title .cname{
     font: 16px/16px "微软雅黑";

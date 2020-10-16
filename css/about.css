@@ -1,5 +1,4 @@
 .content{
-    height: 1000px;
     background:#000 url(../images/about-bg.png) no-repeat center;
 }
 .content .title
@@ -7,7 +6,7 @@
     padding-top: 208px;
 }
 .content .ename>span{
-    padding: 0 50px;
+    padding: 0 75px;
 }
 .content .desc{
     width: 781px;
@@ -58,4 +57,38 @@
     margin-left: 130px;
     border-left: 1px solid  rgba(255,255,255,.6);
     padding-left: 44px;
+    text-align: center;
+}
+.content .info{
+    width: 781px;
+    height: 330px;
+    border: 3px solid #dd1717;
+    margin: 0 auto;
+    margin-top: 129px;
+    position: relative;
+} 
+.content .info .logo{
+    background-color: #000;
+    height: 53px;
+    padding: 0 50px;
+    position: absolute;
+    top: -25px;
+    left:220px;
+}
+.content .desc-info p{
+    color: rgba(255,255,255,.6);
+    font-size: 14px;
+    line-height: 30px;
+    margin-top: 68px;
+    width: 614px;
+    text-indent: 2em;
+    float: left;
+    
+}
+.content .info-l img{
+    display: block;
+}
+.content .info-l{
+    float: left;
+    margin:83px 49px 0 41px ;
 }

@@ -10,6 +10,9 @@
 .tour-city .title{
     padding-bottom: 36px;
 }
+.tour-city .ename>span{
+    padding: 0 15px;
+}
 .city-list{
     width: fit-content;
     width: -moz-fit-content;

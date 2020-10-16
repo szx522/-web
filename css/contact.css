@@ -1,0 +1,83 @@
+
+
+.tab-info{
+    padding-top: 127px;
+    padding-bottom: 56px;
+    background-color: #161616;
+    border-collapse:collapse;
+    border-spacing:0;
+}
+.tab-info .tab{
+    width: fit-content;
+    width: -moz-fit-content;
+    width: -webkit-fit-content;
+    margin: 0 auto;
+    padding-top: 107px;   
+}
+.tab-info .tab-l{
+    width: 284px;
+    font-size: 14px;
+    line-height: 30px;
+    color: #fff;
+    float: left;
+    margin-right: 182px;
+}
+.tab-info .tab-l .logo{
+    float: none;
+    height: 44px;
+    width: 284px;
+    background-position:left center;
+    margin-left: 0px;
+}
+.tab-info .tab-l span{
+    color: crimson;
+}
+.tab-info .tab-l p{
+    margin-top: 36px;
+}
+.tab-info .tab-r{
+    width: 500px;
+    height: 500px;
+    color: #fff;
+    float: left;
+    /* background-color: #cff; */
+}
+.tab-info  .tab-name{
+    font-size: 16px;
+    height: 16px;
+    padding-bottom: 10px;
+}
+.tab-info .tab-name span{
+    color: crimson;
+}
+.tab-info .txt{
+    width: 533px;
+    height: 46px;
+    border: 1px solid rgba(255,255,255,.3);
+    background-color: rgba(3,3,3,.15);
+    outline: none;
+}
+.tab-info .txt-a{
+    width: 533px;
+    height: 180px;
+    border: 1px solid rgba(255,255,255,.3);
+    background-color: rgba(3,3,3,.15);
+    outline: none;
+}
+.tab-info .sub-center{
+    text-align: center;
+}
+
+.tab-info .sub{
+    width: 148px;
+    height: 48px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 16px;
+    border-radius: 50px;
+    background-color: #dd1717;
+    margin-top: 50px;
+    border:none;
+    cursor: pointer;
+    outline: none;
+}
