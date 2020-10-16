@@ -68,6 +68,8 @@
     outline: none;
     color: #fff;
     text-indent: 2em;
+    overflow: hidden;
+    resize: none;
 }
 .tab-info .sub-center{
     text-align: center;
