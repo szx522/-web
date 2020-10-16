@@ -1,5 +1,6 @@
 .banner{
     height: 559px;
+    overflow: hidden;
     /* background: url(../images/view_banner.png) no-repeat center;
     background-size: cover; */
 }
